@@ -1,0 +1,1 @@
+import{h as e,k as t}from"./button-zrFZo3g2.js";import{t as n}from"./select-D9N56ami.js";var r=t();function i({value:t,onChange:i}){let a=e.includes(t)?e:[t,...e];return(0,r.jsx)(n,{value:t,onChange:e=>i(e.target.value),"aria-label":`Academic year`,children:a.map(e=>(0,r.jsx)(`option`,{value:e,children:e},e))})}export{i as t};
